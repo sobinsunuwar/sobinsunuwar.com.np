@@ -1,0 +1,126 @@
+/* font awsome icon */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Cabin Condensed', sans-serif;   
+}
+
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
+
+nav ul{
+    display: flex; 
+    align-items: center;
+    list-style: none;
+}
+
+nav li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: gren;
+}
+
+nav .logo{
+    display: flex; 
+    align-items: center;
+}
+
+nav .logo h2{
+    font-size: 20px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.centerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80vw;
+}
+
+.spaceX{
+    margin: 0 40px;
+}
+
+.heroRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero .heroLeft h1{
+    font-size: 4rem;
+}
+
+.hero .heroLeft p{
+    font-size: 40px;
+}
+
+.hero .heroRight img{
+width: 500px;
+}
+
+.social .icons{
+    display: flex;
+    align-items: center;
+}
+
+.social .icon{
+    margin: 0 30px 0 0;
+}
+
+footer{
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 850px){
+
+    .hero .heroRight img{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 368px){
+    .hero .heroLeft h1{
+        font-size: 2.5rem;
+    }
+
+    .hero .heroLeft p{
+        font-size: 20px;
+    }
+
+}
