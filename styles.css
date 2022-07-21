@@ -11,6 +11,10 @@ body{
     font-family: 'Cabin Condensed', sans-serif;   
 }
 
+#themeButton{
+    cursor: pointer;
+}
+
 nav{
     display: flex; 
     align-items: center;
