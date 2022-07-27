@@ -1,4 +1,4 @@
 const themeButton = document.getElementById("themeButton");
 themeButton.addEventListener("clicked", () => {
-  console.log("clicked")
+  alert("Button, Clicked Working on this feature.")
 });
